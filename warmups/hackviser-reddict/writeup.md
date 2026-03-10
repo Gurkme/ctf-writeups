@@ -64,13 +64,8 @@ GET session:admin-001
 ```
 
 **Result:**
-```json
-{
-  "userID": "001",
-  "lastLogin": "2023-12-10T10:10:01",
-  "sessionToken": "iqtoggtry",
-  "isLoggedIn": true
-}
+```
+"{\"userID\": \"001\", \"lastLogin\": \"2023-12-10T10:10:01\", \"sessionToken\": \"iqtoggtry\", \"isLoggedIn\": true}"
 ```
 
 ## Findings Summary
