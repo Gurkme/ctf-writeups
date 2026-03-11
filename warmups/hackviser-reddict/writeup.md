@@ -1,4 +1,4 @@
-# Reddict — Warmup Writeup
+# Reddict - Warmup Writeup
 
 **Platform:** Hackviser | **Category:** Warmups | **Difficulty:** Basic | **Points:** 17  
 **Topic:** Redis Security Misconfiguration  
@@ -87,10 +87,10 @@ GET session:admin-001
 
 This exercise highlighted several critical misconfigurations that would pose serious risk in a real-world environment:
 
-1. **Authentication** — Redis should require a strong password with the `requirepass` directive.
-2. **Network Binding** — The service should be bound to `127.0.0.1` only, preventing external access.
-3. **Data Encryption** — Sensitive values such as session tokens should be always encrypted when storing.
-4. **Principle of Least Privilege** — Access to the Redis instance should be restricted.
+1. **Authentication**: Redis should require a strong password with the `requirepass` directive.
+2. **Network Binding**: The service should be bound to `127.0.0.1` only, preventing external access.
+3. **Data Encryption**: Sensitive values such as session tokens should be always encrypted when storing.
+4. **Principle of Least Privilege**: Access to the Redis instance should be restricted.
 
 A properly hardened configuration would look like following:
 ```
